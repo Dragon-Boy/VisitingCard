@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* clear in floating */
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* css property for outer div */
+.card {
+    width: 500px;
+    background: linear-gradient(to right, red , yellow);
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+/* css property for top div which include image and personal detail */
+.top-div {  
+    width: 500px;
+}
+
+/* css property for div which contain image */
+.left-div {  
+    width: 200px;
+    border-right: 2px solid red;
+    float: left;
+}
+
+/* image wrapping div property */
+.image-wrapper {
+    width: 175px;
+    margin: auto;
+}
+
+/* css property of image */
+.image-wrapper img {
+    width: 100%;
+}
+
+/* properties for div which contain personal information */
+.right-div {  
+    width: 298px;
+    padding: 20px 0px;
+    float: right;
+}
+
+/* property for text wrapping */
+.text-wrapper {
+    width: 250px;
+    margin: auto;
+}
+
+/* property of header1 */
+.text-wrapper h1 {
+    font-family: 'Bitter', serif;
+}
+
+/* property of paragraph */
+.text-wrapper p {
+    font-family: 'Bitter', serif;
+    margin-top: 10px;
+}
+
+
+
+/* property of div which contain email and phone number */
+.bottom-div {  
+    width: 500px;
+}
+
+.bottom-div ul {
+    width:400px;
+    margin: auto;
+}
+
+ .bottom-div ul li{
+     list-style: none;
+     padding:5px 10px;
+     float: left;
+ }
+
+ .font-bold {
+     font-weight: bold;
+ }
